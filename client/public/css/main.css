@@ -2,11 +2,13 @@ body {
   font-family: 'Hind Madurai', sans-serif;
   font-size: 18px;
   color: black;
+  text-align: center;
 }
 
 #form-container {
   margin-top: 2rem;
   margin-left: 2rem;
+  /* cursor: pointer; */
 }
 
 #result-container {
