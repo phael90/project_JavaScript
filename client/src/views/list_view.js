@@ -57,7 +57,7 @@ ListView.prototype.renderOneSearchResult = function (searchResult) {
   //console.log(searchResult.retweets);
   this.searchResultsListElement.appendChild(searchResultItem);
   twttr.widgets.createTweet(
-    ' ' + searchResult.id,
+    `${searchResult.id}`,
     document.getElementById('tweet' + searchResult.id),
     console.log(searchResult.id),
     {
